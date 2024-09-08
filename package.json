@@ -29,12 +29,11 @@
     "@types/eslint": "^9",
     "@types/node": "^22.5.1",
     "eslint": "^8",
-    "koishi": "^4.17.12",
     "prettier": "^3.3.3",
     "typescript": "^5.5.4"
   },
-  "peerDependencies": {
-    "koishi": "^4.17.9"
-  },
-  "private": false
+  "private": false,
+  "dependencies": {
+    "qq-guild-bot": "^2.9.5"
+  }
 }
