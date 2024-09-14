@@ -18,7 +18,7 @@
     "plugin"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsc&&tsc-alias",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "format": "prettier -w src"
@@ -28,12 +28,16 @@
     "@kigoo/prettier-config": "^0.0.1",
     "@types/eslint": "^9",
     "@types/node": "^22.5.1",
+    "@types/ws": "^8.5.12",
     "eslint": "^8",
     "prettier": "^3.3.3",
     "typescript": "^5.5.4"
   },
   "private": false,
   "dependencies": {
-    "qq-guild-bot": "^2.9.5"
+    "express": "^4.20.0",
+    "log4js": "^6.9.1",
+    "qq-guild-bot": "^2.9.5",
+    "uuid": "^10.0.0"
   }
 }
