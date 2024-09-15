@@ -12,11 +12,7 @@
   "homepage": "https://github.com/lisk809/koishi-plugin-hot-search#readme",
   "repository": "git+https://github.com/lisk809/momizi.git",
   "license": "MIT",
-  "keywords": [
-    "chatbot",
-    "koishi",
-    "plugin"
-  ],
+  "keywords":["onebot", "qq"],
   "scripts": {
     "build": "tsc&&tsc-alias",
     "lint": "eslint .",
